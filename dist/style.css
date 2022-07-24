@@ -1,0 +1,23 @@
+body {
+    background-color: #f87171;
+}
+
+#content {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid black;
+    margin: 5% 15%;
+    padding: 64px 0px;
+    color: white;
+}
+
+img {
+    width: 60%;
+    height: auto;
+}
+
+p {
+    width: 45%;
+}
