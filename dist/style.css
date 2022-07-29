@@ -7,10 +7,11 @@ body {
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5% 15%;
     padding: 64px 0px;
     color: white;
+    height: 500px;
 }
 
 img {
@@ -20,4 +21,19 @@ img {
 
 p {
     width: 45%;
+}
+
+.links {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links p {
+    width: 100% !important;
+}
+
+.links p:hover {
+    color: beige;
+    cursor: pointer;
 }
