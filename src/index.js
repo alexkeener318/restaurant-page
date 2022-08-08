@@ -1,4 +1,4 @@
 import loadHomepage from './homepage';
-loadHomepage();
+//loadHomepage();
 console.log("ITS WORKING");
 

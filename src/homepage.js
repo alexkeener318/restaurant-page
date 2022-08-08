@@ -1,4 +1,5 @@
 function loadHomepage() {
+    const home = document.createElement("div");
     const content = document.getElementById("content");
     const img = document.createElement("img");
     const title = document.createElement("h1");
@@ -8,6 +9,7 @@ function loadHomepage() {
     const menu = document.createElement("p");
     const contact = document.createElement("p");
 
+    home.classList.add("home");
     img.setAttribute("src", "../italy.jpg");
     title.textContent = "Italy's Finest Cuisine";
     desc.textContent = "My name is Marco, creator of the tomato, and I have got to say that this is the finest Restaurant in all of the world. Never before have I tasted my creation (the tomato), so finely prepared. 2/10 probably wouldnt eat here again."
@@ -23,6 +25,8 @@ function loadHomepage() {
     content.appendChild(title);
     content.appendChild(desc);
     content.appendChild(links);
+
+    content.style = "display: flex; flex-direction: column; justify-content: center; align-items: center;/* border: 1px solid black; */margin: 5% 15%;padding: 64px 0px;color: white;height: 500px;"
 }
 
 export default loadHomepage;

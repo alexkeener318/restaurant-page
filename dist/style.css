@@ -1,17 +1,11 @@
 body {
     background-color: #f87171;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-    /* border: 1px solid black; */
-    margin: 5% 15%;
-    padding: 64px 0px;
-    color: white;
-    height: 500px;
+
 }
 
 img {
@@ -33,7 +27,18 @@ p {
     width: 100% !important;
 }
 
-.links p:hover {
+.links p:hover, .header p:hover {
     color: beige;
     cursor: pointer;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    height: 100px;
+    background-color: rgb(70, 120, 92);
+    margin: 0;
 }
