@@ -42,3 +42,26 @@ p {
     background-color: rgb(70, 120, 92);
     margin: 0;
 }
+
+.menu {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: repeat(3,245px);
+    margin-top: 45px;
+}
+
+.menu img {
+    height: 150px;
+    width: auto;
+}
+
+.desc {
+    color: white;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 28px;
+    margin: 10px;
+}
