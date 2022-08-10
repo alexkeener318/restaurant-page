@@ -65,3 +65,14 @@ p {
     font-size: 28px;
     margin: 10px;
 }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+}
+
+a {
+    color: aqua;
+}

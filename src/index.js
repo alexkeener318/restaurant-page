@@ -1,6 +1,8 @@
 import loadHomepage from './homepage';
-import loadMenu from './menu';
+//import loadMenu from './menu';
+import loadHeader from './menu';
 //loadHomepage();
-loadMenu();
+//loadMenu();
+//loadHeader();
 console.log("ITS WORKING");
 
