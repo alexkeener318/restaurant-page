@@ -14,6 +14,9 @@ function loadHomepage() {
     homepage.textContent = "Homepage";
     menu.textContent = "Menu";
     contact.textContent = "Contact Us";
+    homepage.setAttribute('id','homepage');
+    menu.setAttribute('id','menu');
+    contact.setAttribute('id','contact');
     links.appendChild(homepage);
     links.appendChild(menu);
     links.appendChild(contact);
